@@ -1,0 +1,89 @@
+{
+  "host": "localhost",
+  "port": 3000,
+  "pluginsDir": "../plugins",
+  "plugins": [],
+  "migrationDir": ".tmp",
+  "locale": "en",
+  "logger": {
+    "level": "info",
+    "console": true,
+    "file": ".tmp/server.log"
+  },
+  "database": {
+    "postgres": {
+      "directory": "./src/models",
+      "type": "postgres",
+      "host": "postgres",
+      "port": "5432",
+      "name": "sodas_dev",
+      "schema": "public",
+      "username": "sodas_dev_user",
+      "password": "sodas_dev_secret"
+    },
+    "influxdb": {
+      "host": "influxdb",
+      "port": "8086",
+      "name": "sodas_dev",
+      "username": "sodas_dev_user",
+      "password": "sodas_dev_secret"
+    }
+  },
+  "authentication": {
+    "secret": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhXyJebZ0M2Fp+SJNdKOvcK7xpuIMkm/mQ7pzbbcEaBgocU8bHUE4dyf/CLmDNrazycOKWQVRhI6Ozkze2vEIB7hvql8lU2K2Bjf760E3H089+4SrHdiq6fOuwEkECgcgjDobHriD1fWe6LkeSEW5CX+JiTPg1Xi+yFHjZXfpaT7spPQfC3upL4nTh4t2Neb2JyhR/m/VpBENz81wAVi5R6RxhxiGyhcudEKkEFLtWOjq4mpUiREciTvL6kxc9lMRjwSnG5dedpOdIaKjEvX++WO/8y4z6b3YalHJlUAZ7Wuwa36OYYsqxuzLADzjrwDjo+4j8qaoglHQQFOQbo/7DQIDAQAB\n-----END PUBLIC KEY-----",
+    "strategies": [
+      "jwt"
+    ],
+    "path": "/authentication",
+    "service": "user",
+    "jwt": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "account",
+      "subject": "anonymous",
+      "issuer": "https://keycloak-web-58-181-37-175.nip.io:7002/auth/realms/master",
+      "algorithm": "RS256",
+      "expiresIn": "1d"
+    },
+    "freeipa": {
+      "server": "ipaserver.sodas.etri",
+      "auth": {
+        "user": "admin",
+        "pass": "admin.123"
+      }
+    },
+    "keycloak": {
+      "issuer": "https://keycloak-web-58-181-37-175.nip.io:7002/auth/realms/master",
+      "issuerHost": "https://keycloak-web-58-181-37-175.nip.io:7002/auth/realms/master",
+      "authorizationURL": "https://keycloak-web-58-181-37-175.nip.io:7002/auth/realms/master/protocol/openid-connect/auth",
+      "tokenURL": "https://keycloak-web-58-181-37-175.nip.io:7002/auth/realms/master/protocol/openid-connect/token",
+      "clientID": "platform",
+      "clientSecret": "a329cb95-8141-4a38-93c9-b81dc2a91268",
+      "successRedirect": "/"
+    }
+  },
+  "mapper": {
+    "url": "http://129.254.182.33:18081/api/mapper"
+  },
+  "harvester": {
+    "url": "http://129.254.182.33:2010/api/3/action",
+    "apikey": "9e751dac-cef1-41c1-ba41-eb14791457c3"
+  },
+  "bigdata": {
+    "authentication": {
+      "principal": "sodas",
+      "keytab": "./sodas.keytab",
+      "realm": "SODAS.ETRI"
+    },
+    "hadoop": {
+      "superuser": "hdfs",
+      "master": "host-192-168-0-105.example.com",
+      "hdfs": "http://host-192-168-0-105.example.com:50070/webhdfs/v1"
+    },
+    "kafka": {
+      "url": "129.254.182.33:9092",
+      "jobTopic": "SODAS_JOB"
+    }
+  }
+}

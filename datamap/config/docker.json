@@ -1,0 +1,21 @@
+{
+  "database": {
+    "postgres": {
+      "directory": "./src/models",
+      "type": "postgres",
+      "host": "postgres",
+      "port": "5432",
+      "name": "sodas_dev",
+      "schema": "public",
+      "username": "sodas_dev_user",
+      "password": "sodas_dev_secret"
+    },
+    "influxdb": {
+      "host": "influxdb",
+      "port": "8086",
+      "name": "sodas_dev",
+      "username": "sodas_dev_user",
+      "password": "sodas_dev_secret"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+FROM node:8.11-alpine
+RUN apk add --update python openssl krb5-dev g++ make
+COPY ./krb5.conf /etc/krb5.conf

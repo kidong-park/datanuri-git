@@ -1,0 +1,32 @@
+version: '3'
+services:
+  platform:
+    build:
+      context: .
+      dockerfile: nodejs_dockerfile
+    depends_on:
+      - postgres
+    working_dir: /usr/src/app
+    volumes:
+      - ../../:/usr/src/app
+    extra_hosts:
+      - freeipad.sodas.etri:129.254.76.159
+      - ipaserver.sodas.etri:129.254.176.220
+      - host-192-168-0-105.example.com:129.254.76.158
+      - host-192-168-0-109.example.com:129.254.76.162
+    ports:
+      - 2000:3000
+    command: npm run docker:sodas
+  postgres:
+    image: postgres:10-alpine
+    volumes:
+      - postgres-dev-data:/var/lib/postgresql/data
+      - ../../migrations/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      POSTGRES_DB: sodas_dev
+      POSTGRES_USER: sodas_dev_user
+      POSTGRES_PASSWORD: sodas_dev_secret
+    ports:
+      - 2001:5432
+volumes:
+  postgres-dev-data:

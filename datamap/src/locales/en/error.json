@@ -1,0 +1,442 @@
+{
+  "7000005": {
+    "code": 7000005,
+    "flag": "QUOTA_NOT_FOUND",
+    "message": "Quota does not exist"
+  },
+  "7000006": {
+    "code": 7000006,
+    "flag": "PLATFORM_RESOURCES_ERROR",
+    "message": "Platform Resources Not Enough"
+  },
+  "7000010": {
+    "code": 7000010,
+    "flag": "CLOUD_INPUT_ERROR",
+    "message": "Input Errors"
+  },
+  "10005": {
+    "code": 10005,
+    "flag": "BIGDATA_CLUSTER_ERRORS",
+    "message": "File System Errors (e.g quota, permission...)"
+  },
+  "10006": {
+    "code": 10006,
+    "flag": "APPLICATION_NOT_FOUND",
+    "message": "Application does not exist"
+  },
+  "10007": {
+    "code": 10007,
+    "flag": "SANDBOX_NOT_FOUND",
+    "message": "Sandbox does not exist"
+  },
+  "10008": {
+    "code": 10006,
+    "flag": "APPLICATION_EXECUTION_NOT_FOUND",
+    "message": "Application execution does not exist"
+  },
+  "10009": {
+    "code": 10009,
+    "flag": "SANDBOX_REMOVE_ERROR",
+    "message": "Sandbox remove operation can not be performed"
+  },
+  "10010": {
+    "code": 10010,
+    "flag": "DATASET_NOT_FOUND",
+    "message": "Dataset does not exist"
+  },
+  "10011": {
+    "code": 10011,
+    "flag": "AUTHORIZATION_NOT_FOUND",
+    "message": "Authorization does not exist"
+  },
+  "10012": {
+    "code": 10012,
+    "flag": "DISTRIBUTED_JOB_NOT_FOUND",
+    "message": "Distributed job does not exist"
+  },
+  "10013": {
+    "code": 10013,
+    "flag": "USER_NOT_FOUND",
+    "message": "User does not exist"
+  },
+  "10014": {
+    "code": 10014,
+    "flag": "ORGANIZATION_NOT_FOUND",
+    "message": "Organization does not exist"
+  },
+  "10015": {
+    "code": 10015,
+    "flag": "RELATION_FOUND",
+    "message": "Relation (Organization, User) does exist"
+  },
+  "10016": {
+    "code": 10016,
+    "flag": "ROLE_NOT_FOUND",
+    "message": "Role does not exist"
+  },
+  "10017": {
+    "code": 10017,
+    "flag": "RELATION_NOT_FOUND",
+    "message": "Relation (Organization, User) does not exist"
+  },
+  "10018": {
+    "code": 10018,
+    "flag": "USER_CREDENTIAL_ERROR",
+    "message": "User credential is invalid"
+  },
+  "10019": {
+    "code": 10019,
+    "flag": "QUOTA_NOT_FOUND",
+    "message": "Quota does not exist"
+  },
+  "10020": {
+    "code": 10020,
+    "flag": "AUTHORIZATION_FOUND",
+    "message": "Authorization already existed"
+  },
+  "10021": {
+    "code": 10021,
+    "flag": "RESOURCE_IMAGE_FOUND",
+    "message": "Resource image already existed"
+  },
+  "10022": {
+    "code": 10022,
+    "flag": "VIRTUAL_MACHINE_NOT_FOUND",
+    "message": "Virtual machine does not exist"
+  },
+  "10023": {
+    "code": 10023,
+    "flag": "VM_RESOURCES_ERROR",
+    "message": "Virtual machine's resources not enough"
+  },
+  "10024": {
+    "code": 10024,
+    "flag": "VM_APPLICATION_ERROR",
+    "message": "Virtual machine's application already existed"
+  },
+  "10025": {
+    "code": 10025,
+    "flag": "RESOURCE_USAGE_FOUND",
+    "message": "User is using resources (e.g. sandbox, machine)"
+  },
+  "10026": {
+    "code": 10026,
+    "flag": "USER_FOUND",
+    "message": "User already existed"
+  },
+  "10027": {
+    "code": 10027,
+    "flag": "ORGANIZATION_FOUND",
+    "message": "Organization already existed"
+  },
+  "100187": {
+    "code": 10018,
+    "flag": "IMAGE_NOT_FOUND",
+    "message": "Image does not exist"
+  },
+  "10000": {
+    "code": 10000,
+    "flag": "DATABASE_CONNECTION_FAILED",
+    "message": "Database errors"
+  },
+  "10001": {
+    "code": 10001,
+    "flag": "INVALID_INPUT",
+    "message": "Invalid input errors"
+  },
+  "10002": {
+    "code": 10002,
+    "flag": "PERMISSION_VIOLATED",
+    "message": "Permission Violated"
+  },
+  "10003": {
+    "code": 10003,
+    "flag": "KEYCLOAK_ERRORS",
+    "message": "Keycloak errors"
+  },
+  "1100001": {
+    "code": 1100001,
+    "flag": "PERMISSION_VIOLATED",
+    "message": "Permission Violated"
+  },
+  "1100002": {
+    "code": 1100002,
+    "flag": "DATABASE_CONNECTION_ERROR",
+    "message": "Database errors"
+  },
+  "1100003": {
+    "code": 1100003,
+    "flag": "GROUP_CODE_NOT_FOUND",
+    "message": "Group Code does not exist"
+  },
+  "1100004": {
+    "code": 1100004,
+    "flag": "CODE_NOT_FOUND",
+    "message": "Code does not exist"
+  },
+  "1100005": {
+    "code": 1100005,
+    "flag": "CODE_FOUND",
+    "message": "Code does exist"
+  },
+  "3300000": {
+    "code": 3300000,
+    "flag": "COMPUTING_RESOURCE_PERMISSION_ERROR",
+    "message": "Permission Error"
+  },
+  "3300001": {
+    "code": 3300001,
+    "flag": "COMPUTING_RESOURCE_INPUT_ERROR",
+    "message": "Only one default quota is allowed"
+  },
+  "3300002": {
+    "code": 3300002,
+    "flag": "COMPUTING_RESOURCE_INPUT_ERROR",
+    "message": "Input Error"
+  },
+  "3300003": {
+    "code": 3300003,
+    "flag": "COMPUTING_RESOURCE_INPUT_ERROR",
+    "message": "Can not be set less than current usage"
+  },
+  "7000000": {
+    "code": 7000000,
+    "flag": "KUBERNETES_RESOURCES_ERROR",
+    "message": "Kubernetes Resources Not Enough"
+  },
+  "7000001": {
+    "code": 7000001,
+    "flag": "KUBERNETES_NOT_FOUND",
+    "message": "Deployment Not Found in Database"
+  },
+  "7000002": {
+    "code": 7000002,
+    "flag": "KUBERNETES_NAME_ERROR",
+    "message": "kubernetes Same Name Error"
+  },
+  "7000003": {
+    "code": 7000003,
+    "flag": "KUBERNETES_PERMISSION_ERROR",
+    "message": "Kubernetes Permission Error"
+  },
+  "7000004": {
+    "code": 7000004,
+    "flag": "KUBERNETES_INPUT_ERROR",
+    "message": "userQuotaId, orgQuotaId and clusterName do not match"
+  },
+  "10100000": {
+    "code": 10100000,
+    "flag": "OPENSTACK_INVALID_INPUT",
+    "message": "Openstack Input Error"
+  },
+  "10100001": {
+    "code": 10100001,
+    "flag": "OPENSTACK_NAME_ERROR",
+    "message": "Openstack Same Name Error"
+  },
+  "10100002": {
+    "code": 10100002,
+    "flag": "SYSTEM_INFRA_PERMISSION_ERROR",
+    "message": "Permission Error"
+  },
+  "10100003": {
+    "code": 10100003,
+    "flag": "SYSTEM_INFRA_RESOURCE_NOT_FOUND",
+    "message": "resource not found"
+  },
+  "10004": {
+    "code": 10004,
+    "flag": "GRAFANA_ERRORS",
+    "message": "Grafana errors"
+  },
+  "1000004": {
+    "code": 1000004,
+    "flag": "VERSION_NOT_FOUND",
+    "message": "Version not exist"
+  },
+  "1000005": {
+    "code": 1000005,
+    "flag": "VERSION_INPUT_REQUIRED",
+    "message": "Version input required"
+  },
+  "1000006": {
+    "code": 1000006,
+    "flag": "VERSION_EXIST",
+    "message": "Version exist"
+  },
+  "1000007": {
+    "code": 1000007,
+    "flag": "TAXONOMY_NOT_FOUND",
+    "message": "Taxonomy not exist"
+  },
+  "1000008": {
+    "code": 1000008,
+    "flag": "TAXONOMY_ID_REQUIRED",
+    "message": "Taxonomy id required"
+  },
+  "1000009": {
+    "code": 1000009,
+    "flag": "TAXONOMY_EXIST",
+    "message": "Taxonomy exist"
+  },
+  "1000010": {
+    "code": 1000010,
+    "flag": "METADATA_NOT_FOUND",
+    "message": "Metadata not exist"
+  },
+  "1000011": {
+    "code": 1000011,
+    "flag": "METADATA_EXIST",
+    "message": "Metadata exist"
+  },
+  "1000012": {
+    "code": 1000012,
+    "flag": "MASTERDATA_NOT_FOUND",
+    "message": "Masterdata not exist"
+  },
+  "1000013": {
+    "code": 1000013,
+    "flag": "MASTERDATA_EXIST",
+    "message": "Masterdata exist"
+  },
+  "2500004": {
+    "code": 2500004,
+    "flag": "LIKE_EXIST",
+    "message": "like exist"
+  },
+  "7100003": {
+    "code": 7100003,
+    "flag": "ENVIRONMENT_NOT_FOUND",
+    "message": "Environment not exist"
+  },
+  "7100004": {
+    "code": 7100004,
+    "flag": "ENVIRONMENT_ID_REQUIRED",
+    "message": "Environment id required"
+  },
+  "7100005": {
+    "code": 7100005,
+    "flag": "ENVIRONMENT_EXIST",
+    "message": "Environment exist"
+  },
+  "20001": {
+    "code": 20001,
+    "flag": "CATALOG_NOT_FOUND",
+    "message": "Catalog does not exist"
+  },
+  "20002": {
+    "code": 20002,
+    "flag": "DATASET_NOT_FOUND",
+    "message": "Dataset does not exist"
+  },
+  "20003": {
+    "code": 20003,
+    "flag": "DATASERVICE_NOT_FOUND",
+    "message": "Dataservice does not exist"
+  },
+  "20004": {
+    "code": 20004,
+    "flag": "DISTRIBUTION_NOT_FOUND",
+    "message": "Distribution does not exist"
+  },
+  "20005": {
+    "code": 20005,
+    "flag": "RESOURCE_EXIST",
+    "message": "Resource (e.g. dataset, dataservice) does exist"
+  },
+  "20006": {
+    "code": 20006,
+    "flag": "CATALOG_COMPONENT_NOT_FOUND",
+    "message": "Catalog component does not exist"
+  },
+  "20007": {
+    "code": 20007,
+    "flag": "RELATIONSHIP_NOT_FOUND",
+    "message": "Relationship does not exist"
+  },
+  "20008": {
+    "code": 20008,
+    "flag": "HARVESTING_SOURCE_NOT_FOUND",
+    "message": "Harvesting Source does not exist"
+  },
+  "20009": {
+    "code": 20009,
+    "flag": "HARVESTING_JOB_NOT_FOUND",
+    "message": "Harvesting job does not exist"
+  },
+  "20010": {
+    "code": 20010,
+    "flag": "PURCHASE_NOT_FOUND",
+    "message": "Purchase does not exist"
+  },
+  "20011": {
+    "code": 20011,
+    "flag": "CHILD_CATALOG_FOUND",
+    "message": "Child catalog does exist"
+  },
+  "20012": {
+    "code": 20012,
+    "flag": "CHILD_COMPONENT_FOUND",
+    "message": "Child component does exist"
+  },
+  "20013": {
+    "code": 20013,
+    "flag": "KEYWORD_NOT_FOUND",
+    "message": "Keyword does not exist"
+  },
+  "20014": {
+    "code": 20014,
+    "flag": "KEYWORD_FOUND",
+    "message": "Keyword does exist"
+  },
+  "20015": {
+    "code": 20015,
+    "flag": "BULLETIN_BOARD_NOT_FOUND",
+    "message": "Bulletin board does not exist"
+  },
+  "20016": {
+    "code": 20016,
+    "flag": "DISTRIBUTION_FOUND",
+    "message": "Distribution does exist"
+  },
+  "20017": {
+    "code": 20017,
+    "flag": "RESOURCE_NOT_FOUND",
+    "message": "Resource (e.g. dataset, dataservice) does not exist"
+  },
+  "20018": {
+    "code": 20018,
+    "flag": "ACTIVITY_NOT_FOUND",
+    "message": "Activity does not exist"
+  },
+  "20019": {
+    "code": 20019,
+    "flag": "SHOPPING_BASKET_FOUND",
+    "message": "Shopping basket does exist"
+  },
+  "20020": {
+    "code": 20020,
+    "flag": "SHOPPING_BASKET_NOT_FOUND",
+    "message": "Shopping basket does not exist"
+  },
+  "20021": {
+    "code": 20021,
+    "flag": "PARENT_NOT_FOUND",
+    "message": "Parent node does not exist"
+  },
+  "20022": {
+    "code": 20022,
+    "flag": "RUNNING_HARVEST_JOB_FOUND",
+    "message": "Running job does exist"
+  },
+  "20023": {
+    "code": 20023,
+    "flag": "ANSWER_FOUND",
+    "message": "Answer does exist"
+  },
+  "20024": {
+    "code": 20024,
+    "flag": "TENANT_FOUND",
+    "message": "Tenant does exist"
+  }
+}
